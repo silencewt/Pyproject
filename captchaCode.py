@@ -39,4 +39,4 @@ for t in range(4):
 
 #模糊
 image = image.filter(ImageFilter.BLUR)
-image.save('code.jpg','jpeg')
+image.save('/image/code.jpg','jpeg')
